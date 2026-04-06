@@ -6,7 +6,7 @@ import numpy as np
 model = pickle.load(open('model.pkl', 'rb'))
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 
-st.title("🏠 California House Price Prediction")
+st.title("🏠 House Price Prediction")
 
 MedInc = st.number_input("Median Income")
 HouseAge = st.number_input("House Age")
